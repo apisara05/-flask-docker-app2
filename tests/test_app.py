@@ -20,7 +20,7 @@ def test_hello_endpoint(client):
     # ตรวจสอบ response data
     json_data = response.get_json()
     assert json_data is not None
-    assert json_data['message'] == 'Hello from Flask API!'
+    assert json_data['message'] == 'Hi api'
 
 
 def test_hello_endpoint_method_not_allowed(client):
