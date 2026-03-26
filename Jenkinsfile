@@ -43,7 +43,7 @@ pipeline {
 
     // Environment variables
     environment {
-        DOCKER_HUB_CREDENTIALS_ID = 'dockerhub-cred'
+        DOCKER_HUB_CREDENTIALS_ID = 'dockerhub-credd'
         DOCKER_REPO               = "iamsamitdev/flask-docker-app"
 
         // จำลอง DEV/PROD บน Local
