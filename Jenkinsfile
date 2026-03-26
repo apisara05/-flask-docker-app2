@@ -39,7 +39,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_CREDENTIALS_ID = 'dockerhub-card1'
-        DOCKER_REPO               = "iamsamitdev/flask-docker-app"
+        DOCKER_REPO               = "apisara0508/flask-docker-app2"
 
         DEV_APP_NAME              = "flask-app-dev"
         DEV_HOST_PORT             = "5001"
